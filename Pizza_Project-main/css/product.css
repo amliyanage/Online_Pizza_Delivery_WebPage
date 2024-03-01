@@ -1,0 +1,62 @@
+.product #setItems{
+    margin: 100px;
+}
+.row{
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 47px;
+}
+
+.product .item{
+    border: 1px solid #000000;
+    margin: 20px;
+    padding: 20px 30px;
+}
+
+.product .item img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.product .item img:hover{
+    transform: scale(1.1);
+}
+
+.product .btn{
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--heigh);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product .increment input{
+    text-align: center;
+    color: var(--count);
+    width: 100px;
+    height: 30px;
+}
+
+.product .increment button{
+    padding: 3px 10px;
+    border: none;
+    background-color: var(--heigh);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin: 10px;
+}
