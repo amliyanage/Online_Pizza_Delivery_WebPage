@@ -90,4 +90,78 @@ nav ul div h5{
     font-size: 18px;
     margin-left: 0.5rem;
 }
+.homePage {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.homePage div img{
+    width: 890px;
+    height: auto;
+    position: absolute;
+    left: 101vh;
+    top: 14vh;
+    z-index: -1;
+    overflow: hidden;
+}
+
+@keyframes imageAni {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.homePage .Animathion {
+    position: relative; /* Or any other positioning method you prefer */
+    width: 201vh;
+    height: auto;
+    animation-name: imageAni;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    overflow: hidden; /* Set overflow hidden on .Animathion */
+}
+.homePage .text{
+    position: absolute;
+    top: 27vh;
+    left: 14vh;
+}
+.homePage h1{
+    font-size: 55px;
+}
+
+.homePage h1 span{
+    color: var(--heigh);
+}
+.homePage h3{
+    font-size: 25px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+}
+.homePage p{
+    margin-top: 30px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 61vh;
+    text-align: left;
+}
+
+.homePage button{
+    margin-top: 7rem;
+    padding: 25px 45px;
+    border: none;
+    background-color: var(--heigh);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+}
 
