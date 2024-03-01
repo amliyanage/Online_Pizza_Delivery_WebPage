@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+:root{
+    --text : #000000;
+    --heigh : #FF9921;
+    --count : #424242;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    position: fixed;
+    color: var(--text);
+    width: 100%;
+    font-family: "Rubik", sans-serif;
+    border-bottom: 1px solid #000000;
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    z-index: 1000;
+}
+
+
+nav{
+    display: flex;
+    margin: 20px;
+    text-align: center;
+}
+
+header nav div h1{
+    font-weight: 800;
+    color: var(--heigh);
+}
+
+
+nav ul{
+    margin-top: 2px;
+    display: flex;
+    width: 100%;
+    margin-left: 30rem;
+}
+
+nav ul div{
+    display: flex;
+    width: 100%;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 60px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+    color: var(--text);
+}
+
+nav ul li:hover{
+    color: var(--heigh);
+}
+
+
+nav ul div{
+    margin-left: 20rem;
+}
+
+nav ul div i{
+    font-size: 18px;
+    margin-left: 2rem;
+    color: var(--text);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+nav ul div i:hover{
+    color: var(--heigh);
+}
+
+nav ul div h5{
+    color: var(--heigh);
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 0.5rem;
+}
+
