@@ -113,3 +113,11 @@ for (let i = 0; i < items.length; i += 4) {
     setItems.appendChild(row);
 }
 
+//---------------------------------------------- add to cart ----------------------------------------------
+
+let cart = 0;
+
+function addToCart(item,count){
+    cart += count;
+    document.getElementById('Cart').textContent ='( '+cart+' )';
+}
