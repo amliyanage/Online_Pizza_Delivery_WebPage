@@ -122,3 +122,66 @@
 
 }
 
+.contact .img{
+    width: 121vh;
+    position: relative;
+    left: 85vh;
+    top: 0vh;
+}
+
+.contact .img .img1{
+    position: relative;
+    left: 28vh;
+    top: -40vh;
+}
+
+.contact .img .img2{
+    position: relative;
+    left: 22vh;
+    top: -7vh;
+}
+
+.contact input{
+    color: var(--text);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 20px;
+    width: 310px;
+}
+
+.contact .con{
+    position: relative;
+    top: -65vh;
+    left: 11vh;
+}
+
+.contact td{
+    padding: 23px;
+    padding-left: 0px;
+}
+
+.contact button{
+    padding: 20px 40px;
+    border: none;
+    background-color: var(--heigh);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.contact h3{
+    color: var(--heigh);
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.contact h2{
+    color: var(--text);
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
