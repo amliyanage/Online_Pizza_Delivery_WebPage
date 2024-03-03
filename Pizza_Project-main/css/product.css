@@ -121,6 +121,9 @@
     margin-top: 20px;
 
 }
+.contact{
+    height: 64px;
+}
 
 .contact .img{
     width: 121vh;
@@ -184,4 +187,21 @@
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 20px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--heigh);
+    padding: 50px 20px;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    position: relative;
+    font-size: 20px;
+    top: 90vh;
+}
+
+footer h2{
+    margin-left: 33vh;
 }
